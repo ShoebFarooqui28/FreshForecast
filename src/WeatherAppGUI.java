@@ -68,7 +68,7 @@ public class WeatherAppGUI extends JFrame {
         locationName.setVerticalAlignment(JLabel.CENTER);
         add(locationName);
 
-        JLabel weather_ConditionImage = new JLabel(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\cloudy-icon.png", 256, 256));
+        JLabel weather_ConditionImage = new JLabel(loadImage("D:\\FreshForecast\\src\\Assets\\cloudy-icon.png", 256, 256));
         weather_ConditionImage.setBounds(115, 170, 256, 256);
         add(weather_ConditionImage);
 
@@ -90,7 +90,7 @@ public class WeatherAppGUI extends JFrame {
         weatherConditionDesc.setVerticalAlignment(JLabel.CENTER);
         add(weatherConditionDesc);
 
-        JLabel humidityIcon = new JLabel(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\humidity.png", 60, 60));
+        JLabel humidityIcon = new JLabel(loadImage("D:\\FreshForecast\\src\\Assets\\humidity.png", 60, 60));
         humidityIcon.setBounds(110, 580, 60, 60);
         add(humidityIcon);
 
@@ -103,7 +103,7 @@ public class WeatherAppGUI extends JFrame {
         humidityText.setVerticalAlignment(JLabel.CENTER);
         add(humidityText);
 
-        JLabel windIcon = new JLabel(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\wind.png", 50, 50));
+        JLabel windIcon = new JLabel(loadImage("D:\\FreshForecast\\src\\Assets\\wind.png", 50, 50));
         windIcon.setBounds(110, 680, 60, 60);
         add(windIcon);
 
@@ -143,7 +143,7 @@ public class WeatherAppGUI extends JFrame {
         childPanel1.setLayout(null);
         childPanel1.setBounds(15,125+30,422,100);
         childPanel1.setBackground(new Color(0xc4bbf0));
-        JLabel sideWeatherIcon1 = new JLabel(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\cloudy-icon.png", 64,64));
+        JLabel sideWeatherIcon1 = new JLabel(loadImage("D:\\FreshForecast\\src\\Assets\\cloudy-icon.png", 64,64));
         sideWeatherIcon1.setBounds(+15, 18, 64, 64);
         sideWeatherIcon1.setHorizontalAlignment(JLabel.CENTER);
         sideWeatherIcon1.setVerticalAlignment(JLabel.CENTER);
@@ -174,7 +174,7 @@ public class WeatherAppGUI extends JFrame {
         childPanel2.setLayout(null);
         childPanel2.setBounds(15,240+30,422,100);
         childPanel2.setBackground(new Color(0xc4bbf0));
-        JLabel sideWeatherIcon2 = new JLabel(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\cloudy-icon.png", 64,64));
+        JLabel sideWeatherIcon2 = new JLabel(loadImage("D:\\FreshForecast\\src\\Assets\\cloudy-icon.png", 64,64));
         sideWeatherIcon2.setBounds(+15, 18, 64, 64);
         sideWeatherIcon2.setHorizontalAlignment(JLabel.CENTER);
         sideWeatherIcon2.setVerticalAlignment(JLabel.CENTER);
@@ -204,7 +204,7 @@ public class WeatherAppGUI extends JFrame {
         childPanel3.setLayout(null);
         childPanel3.setBounds(15,355+30,422,100);
         childPanel3.setBackground(new Color(0xc4bbf0));
-        JLabel sideWeatherIcon3 = new JLabel(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\cloudy-icon.png", 64,64));
+        JLabel sideWeatherIcon3 = new JLabel(loadImage("D:\\FreshForecast\\src\\Assets\\cloudy-icon.png", 64,64));
         sideWeatherIcon3.setBounds(+15, 18, 64, 64);
         sideWeatherIcon3.setHorizontalAlignment(JLabel.CENTER);
         sideWeatherIcon3.setVerticalAlignment(JLabel.CENTER);
@@ -233,7 +233,7 @@ public class WeatherAppGUI extends JFrame {
         childPanel4.setLayout(null);
         childPanel4.setBounds(15,470+30,422,100);
         childPanel4.setBackground(new Color(0xc4bbf0));
-        JLabel sideWeatherIcon4 = new JLabel(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\cloudy-icon.png", 64,64));
+        JLabel sideWeatherIcon4 = new JLabel(loadImage("D:\\FreshForecast\\src\\Assets\\cloudy-icon.png", 64,64));
         sideWeatherIcon4.setBounds(+15, 18, 64, 64);
         sideWeatherIcon4.setHorizontalAlignment(JLabel.CENTER);
         sideWeatherIcon4.setVerticalAlignment(JLabel.CENTER);
@@ -262,7 +262,7 @@ public class WeatherAppGUI extends JFrame {
         childPanel5.setLayout(null);
         childPanel5.setBounds(15,585+30,422,100);
         childPanel5.setBackground(new Color(0xc4bbf0));
-        JLabel sideWeatherIcon5 = new JLabel(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\cloudy-icon.png", 64,64));
+        JLabel sideWeatherIcon5 = new JLabel(loadImage("D:\\FreshForecast\\src\\Assets\\cloudy-icon.png", 64,64));
         sideWeatherIcon5.setBounds(+15, 18, 64, 64);
         sideWeatherIcon5.setHorizontalAlignment(JLabel.CENTER);
         sideWeatherIcon5.setVerticalAlignment(JLabel.CENTER);
@@ -312,7 +312,7 @@ public class WeatherAppGUI extends JFrame {
         sidePanel.add(childPanel5);
         add(sidePanel);
 
-        JButton searchButton = new JButton(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\search-icon.png", 60, 60));
+        JButton searchButton = new JButton(loadImage("D:\\FreshForecast\\src\\Assets\\search-icon.png", 60, 60));
         searchButton.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
         searchButton.setBounds(410, 15, 60, 60);
         searchButton.setBackground(new Color(0xc4bbf0));
@@ -343,19 +343,19 @@ public class WeatherAppGUI extends JFrame {
 
                 switch (weatherCondition) {
                     case "Clear":
-                        weather_ConditionImage.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\clear-icon.png", 256, 256));
+                        weather_ConditionImage.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\clear-icon.png", 256, 256));
                         break;
                     case "Cloudy":
-                        weather_ConditionImage.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\cloudy-icon.png", 256, 256));
+                        weather_ConditionImage.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\cloudy-icon.png", 256, 256));
                         break;
                     case "Rainy":
-                        weather_ConditionImage.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\rainy-icon.png", 256, 256));
+                        weather_ConditionImage.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\rainy-icon.png", 256, 256));
                         break;
                     case "Snow":
-                        weather_ConditionImage.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\snow-icon.png", 256, 256));
+                        weather_ConditionImage.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\snow-icon.png", 256, 256));
                         break;
                     default:
-                        weather_ConditionImage.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\unknown-icon.png", 256, 256));
+                        weather_ConditionImage.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\unknown-icon.png", 256, 256));
                         break;
                 }
 
@@ -398,19 +398,19 @@ public class WeatherAppGUI extends JFrame {
                 }
                 switch (sideWeatherCondition1) {
                     case "Clear":
-                    sideWeatherIcon1.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\clear-icon.png", 64, 64));
+                    sideWeatherIcon1.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\clear-icon.png", 64, 64));
                         break;
                     case "Cloudy":
-                    sideWeatherIcon1.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\cloudy-icon.png", 64, 64));
+                    sideWeatherIcon1.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\cloudy-icon.png", 64, 64));
                         break;
                     case "Rainy":
-                    sideWeatherIcon1.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\rainy-icon.png", 64, 64));
+                    sideWeatherIcon1.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\rainy-icon.png", 64, 64));
                         break;
                     case "Snow":
-                    sideWeatherIcon1.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\snow-icon.png", 64, 64));
+                    sideWeatherIcon1.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\snow-icon.png", 64, 64));
                         break;
                     default:
-                    sideWeatherIcon1.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\unknown-icon.png", 64, 64));
+                    sideWeatherIcon1.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\unknown-icon.png", 64, 64));
                         break;
                 }
 
@@ -422,19 +422,19 @@ public class WeatherAppGUI extends JFrame {
                 }
                 switch (sideWeatherCondition2) {
                     case "Clear":
-                    sideWeatherIcon2.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\clear-icon.png", 64, 64));
+                    sideWeatherIcon2.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\clear-icon.png", 64, 64));
                         break;
                     case "Cloudy":
-                    sideWeatherIcon2.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\cloudy-icon.png", 64, 64));
+                    sideWeatherIcon2.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\cloudy-icon.png", 64, 64));
                         break;
                     case "Rainy":
-                    sideWeatherIcon2.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\rainy-icon.png", 64, 64));
+                    sideWeatherIcon2.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\rainy-icon.png", 64, 64));
                         break;
                     case "Snow":
-                    sideWeatherIcon2.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\snow-icon.png", 64, 64));
+                    sideWeatherIcon2.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\snow-icon.png", 64, 64));
                         break;
                     default:
-                    sideWeatherIcon2.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\unknown-icon.png", 64, 64));
+                    sideWeatherIcon2.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\unknown-icon.png", 64, 64));
                         break;
                 }
 
@@ -446,19 +446,19 @@ public class WeatherAppGUI extends JFrame {
                 }
                 switch (sideWeatherCondition3) {
                     case "Clear":
-                    sideWeatherIcon3.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\clear-icon.png", 64, 64));
+                    sideWeatherIcon3.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\clear-icon.png", 64, 64));
                         break;
                     case "Cloudy":
-                    sideWeatherIcon3.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\cloudy-icon.png", 64, 64));
+                    sideWeatherIcon3.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\cloudy-icon.png", 64, 64));
                         break;
                     case "Rainy":
-                    sideWeatherIcon3.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\rainy-icon.png", 64, 64));
+                    sideWeatherIcon3.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\rainy-icon.png", 64, 64));
                         break;
                     case "Snow":
-                    sideWeatherIcon3.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\snow-icon.png", 64, 64));
+                    sideWeatherIcon3.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\snow-icon.png", 64, 64));
                         break;
                     default:
-                    sideWeatherIcon3.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\unknown-icon.png", 64, 64));
+                    sideWeatherIcon3.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\unknown-icon.png", 64, 64));
                         break;
                 }
 
@@ -470,19 +470,19 @@ public class WeatherAppGUI extends JFrame {
                 }
                 switch (sideWeatherCondition4) {
                     case "Clear":
-                    sideWeatherIcon4.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\clear-icon.png", 64, 64));
+                    sideWeatherIcon4.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\clear-icon.png", 64, 64));
                         break;
                     case "Cloudy":
-                    sideWeatherIcon4.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\cloudy-icon.png", 64, 64));
+                    sideWeatherIcon4.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\cloudy-icon.png", 64, 64));
                         break;
                     case "Rainy":
-                    sideWeatherIcon4.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\rainy-icon.png", 64, 64));
+                    sideWeatherIcon4.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\rainy-icon.png", 64, 64));
                         break;
                     case "Snow":
-                    sideWeatherIcon4.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\snow-icon.png", 64, 64));
+                    sideWeatherIcon4.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\snow-icon.png", 64, 64));
                         break;
                     default:
-                    sideWeatherIcon4.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\unknown-icon.png", 64, 64));
+                    sideWeatherIcon4.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\unknown-icon.png", 64, 64));
                         break;
                 }
 
@@ -494,19 +494,19 @@ public class WeatherAppGUI extends JFrame {
                 }
                 switch (sideWeatherCondition5) {
                     case "Clear":
-                    sideWeatherIcon5.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\clear-icon.png", 64, 64));
+                    sideWeatherIcon5.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\clear-icon.png", 64, 64));
                         break;
                     case "Cloudy":
-                    sideWeatherIcon5.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\cloudy-icon.png", 64, 64));
+                    sideWeatherIcon5.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\cloudy-icon.png", 64, 64));
                         break;
                     case "Rainy":
-                    sideWeatherIcon5.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\rainy-icon.png", 64, 64));
+                    sideWeatherIcon5.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\rainy-icon.png", 64, 64));
                         break;
                     case "Snow":
-                    sideWeatherIcon5.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\snow-icon.png", 64, 64));
+                    sideWeatherIcon5.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\snow-icon.png", 64, 64));
                         break;
                     default:
-                    sideWeatherIcon5.setIcon(loadImage("D:\\Projects\\SimplyWeather\\src\\Assets\\unknown-icon.png", 64, 64));
+                    sideWeatherIcon5.setIcon(loadImage("D:\\FreshForecast\\src\\Assets\\unknown-icon.png", 64, 64));
                         break;
                 }
 
@@ -525,7 +525,7 @@ public class WeatherAppGUI extends JFrame {
     }
 
     private void iconTitle() {
-        ImageIcon icon = new ImageIcon("D:\\Projects\\SimplyWeather\\src\\Assets\\weather-title-icon.jpg");
+        ImageIcon icon = new ImageIcon("D:\\FreshForecast\\src\\Assets\\weather-title-icon.jpg");
         setIconImage(icon.getImage());
     }
 
