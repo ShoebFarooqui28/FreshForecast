@@ -28,7 +28,7 @@ public class WeatherAppGUI extends JFrame {
         setLocationRelativeTo(null);
         setLayout(null);
         setResizable(false);
-        setTitle("Simply Weather!");
+        setTitle("Fresh Forecast!");
         getContentPane().setBackground(new Color(0xc4bbf0));
 
         iconTitle();
